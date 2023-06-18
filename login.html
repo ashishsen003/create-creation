@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap');
+</style>
+<body>
+    <div class="container">
+        <div>
+        <div class="bg-image"></div>
+
+        <div id="form-div">
+            <h3>Log in</h3>
+            <form action="" id="form">
+
+                <label for="">Email</label><br>
+                <input type="email" id="email" placeholder="example@gmail.com" required><br>
+                <p id="wrong-email" class="wrong"><span class="cross">❌</span> Email is not registerd</p>
+
+                <label for="">Password</label><br>
+                <input type="password" id="password" placeholder="Password" required><br>
+                <p id="wrong-pass" class="wrong"><span class="cross">❌</span> Wrong password</p>
+
+                
+                <input type="submit" value="Log in" id="login">
+                <span class="divert">New here?</span><a href="./signup.html" class="divert" style="color: rgb(44, 44, 197);">Signup</a><span class="divert">first</span>
+            </form>
+        </div>  
+    </div>
+    </div>
+</body>
+<script src="./login.js"></script>
+</html>

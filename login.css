@@ -1,0 +1,82 @@
+*{
+box-sizing: border-box;
+font-family: Montserrat;
+transition: .4s;
+}
+p,span,a,div,button{
+font-size: 1.2rem;
+}
+body {
+font-family: Montserrat;
+margin: 0;
+padding: 0;
+background-color: #f5f4ef;
+}
+.bg-image{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100vw;
+height: 100vh;
+background-image: url(./Images/curtain.jpg);
+background-position: center;
+background-size: cover;
+}
+#form-div{
+position: relative;
+top: 130px;
+width: 25%;
+margin: auto;
+padding: 30px 30px 100px 30px;
+border-radius: 30px;
+/* z-index: 2; */
+/* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
+/* box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px; */
+}
+#form-div:hover{
+transform: scale(1.1);
+}
+#form > input{
+width:100%;
+height: 40px;
+margin: 3px 0 20px 0;
+text-indent: 5px;
+}
+#form > label{
+font-size: 1rem;
+color: white;
+}
+#login{
+border: 0px solid black;
+color: black;
+background-color: white;
+font-size: .9rem;
+}
+#login:hover{
+background-color: #333359;
+color: white;
+}
+.divert{
+font-size: 15px;
+text-decoration: none;
+padding: 3px;
+margin-bottom: 5px;
+color: whitesmoke;
+}
+.wrong{
+display: none;
+color: rgb(171, 0, 0);
+font-size: .75rem;
+margin-top: -20px;
+transition: 2s;
+}
+.cross{
+font-size: .7rem;
+}
+a{
+color: rgb(44, 44, 197);
+}
+h3{
+color: whitesmoke;
+}
