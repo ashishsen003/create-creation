@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap');
+</style>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img src="./Images/20230618_185037_0000.jpg" alt="">
+        </div>
+        <div id="form-div">
+            <h3>Sign up</h3>
+            <form action="" id="form">
+                <label for="">First Name</label><br>
+                <input type="text" id="first-name" placeholder="Nicole" required><br>
+
+                <label for="">Last Name</label><br>
+                <input type="text" id="last-name" placeholder="Wallace" required><br>
+
+                <label for="">Email</label><br>
+                <input type="email" id="email" placeholder="example@gmail.com" required><br>
+
+                <label for="">Password</label><br>
+                <input type="password" id="password" placeholder="Password" required><br>
+
+                <label for="">Confirm Password</label><br>
+                <input type="password" id="confirm-password" placeholder="Confirm Password" required><br>
+                <p id="wrong-pass" class="wrong"><span class="cross">✕</span> Please enter same password</p>
+
+                <span class="divert">Already have an account?</span><a href="./login.html" class="divert">Login</a>
+
+                <input type="submit" value="Create Account" id="submit">
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./signup.js"></script>
+</html>
