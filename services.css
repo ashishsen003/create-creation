@@ -1,0 +1,122 @@
+*{
+box-sizing: border-box;
+font-family: Montserrat;
+transition: .4s;
+}
+p,span,a,div,button{
+font-size: 1.2rem;
+}
+body {
+font-family: Montserrat;
+margin: 0;
+padding: 0;
+background-color: #f5f4ef;
+padding: 0 50px;
+
+}
+.separator {
+    border: none;
+    border-top: 2px solid #000;
+    margin: 0;
+    padding: 0;
+    }
+header {
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    }
+    header img{
+    width:100%
+    }
+    header > div:nth-child(1){
+    width: 10vw;
+    }
+    header > div:nth-child(2) > a{
+    color: black;
+    transition: .1s;
+    }
+    header > div:nth-child(2) > a:hover{
+    transform: scale(1.2);
+    }
+    header > div:nth-child(2){
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    div ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    
+    a{
+    text-decoration: none;
+    color: white;
+    }
+    
+    div ul li {
+    display: inline;
+    margin-right: 10px;
+    }
+    
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    }
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 40px 0;
+}
+#container > div{
+    padding: 20px 20px;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    background-color: bisque;
+
+}
+#container > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Footer */
+footer{
+    display: flex;
+    color: rgb(61, 61, 61);
+    }
+    footer > div:nth-child(1){
+    width: 50%;
+    }
+    footer > div:nth-child(1){
+    padding-right: 60px;
+    }
+    footer > div > p{
+    line-height: 1.5;
+    }
+    footer div > div img{
+    width: 100%;
+    }
+    footer > div:nth-child(2){
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    }
+    footer > div:nth-child(2) > div > p:nth-child(1){
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+    }
+    footer > div:nth-child(2) > div > p:nth-child(1)~p{
+    transition: .1s;
+    }
+    footer > div:nth-child(2) > div > p:nth-child(1)~p:hover{
+    transform: scale(1.1);
+    }
+    footer > div:nth-child(1) > div > img{
+    width: 25%; 
+    }
+    
