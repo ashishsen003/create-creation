@@ -1,6 +1,6 @@
 ## Create Creation
 
-Edukin Language Learning Project is an ambitious and innovative endeavor aimed at revolutionizing the way children learn new languages. Developed by a team of dedicated language enthusiasts and tech-savvy educators, our project seeks to empower young minds with invaluable linguistic skills while fostering cross-cultural understanding and global awareness.
+It is a digital agency website which provides software designing servies for Mobile, Website, Saas dashboard and maintenance as well.
 
 ### Project Code: crabby-whistle-3208
 
@@ -28,7 +28,6 @@ Ashish Kumar (https://github.com/ashishsen003)
 - JavaScript
 - CSS
 - HTML
-- Json Server
 
 ## Getting Started
 To run the project locally, follow these steps:
@@ -40,5 +39,5 @@ To run the project locally, follow these steps:
 
 2. Navigate to the project directory:
    ```bash
-   cd remarkable-ice-6564
+   cd crabby-whistle-3208
    ```
