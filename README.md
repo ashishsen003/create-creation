@@ -11,16 +11,14 @@ Ashish Kumar (https://github.com/ashishsen003)
 
 ## ScreenShots:
 ### HomePage:
-![homepage](https://github.com/ashishsen003/remarkable-ice-6564/assets/130379028/644b8cd3-943a-4e0a-8282-541818d172d6)
+![Homepage-1](https://github.com/ashishsen003/crabby-whistle-3208/assets/112822104/7ca7500c-6f18-4465-ac64-0d821191388d)
+![Homepage-2](https://github.com/ashishsen003/crabby-whistle-3208/assets/112822104/a1359195-0327-4192-9507-b4af30349f58)
 
-### CoursesPage:
-![coursesPage](https://github.com/ashishsen003/remarkable-ice-6564/assets/130379028/f0c53d29-7726-4562-84ca-06a65d873042)
+### Login Page:
+![Login-Page](https://github.com/ashishsen003/crabby-whistle-3208/assets/112822104/81e3d8d9-ed52-43b7-8bf2-5ea91e3db3ce)
 
-### AdmissionPage:
-![admissionPage](https://github.com/ashishsen003/remarkable-ice-6564/assets/130379028/9058f4cc-161f-4c0c-a19d-5f3b598505e3)
-
-### TestimonialPage:
-![testimonialPage](https://github.com/ashishsen003/remarkable-ice-6564/assets/130379028/0ec342a7-60fc-4099-820b-7a775a1035d8)
+### Sign Up Page:
+![SignUp-Page](https://github.com/ashishsen003/crabby-whistle-3208/assets/112822104/7a098580-c0d1-44a8-bd7d-5dd55ca6222b)
 
 ## Tech Stack
 - JavaScript
