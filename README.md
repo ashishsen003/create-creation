@@ -4,14 +4,11 @@ It is a digital agency website which provides software designing servies for Mob
 
 ### Netlify Link: https://vocal-elf-cd0ad4.netlify.app/#
 
-### Project Code: crabby-whistle-3208
-
-
 ### This project was created by:
 Ashish Kumar (https://github.com/ashishsen003)
 
 ## ScreenShots:
-### HomePage:
+### Home Page:
 ![Homepage-1](https://github.com/ashishsen003/crabby-whistle-3208/assets/112822104/7ca7500c-6f18-4465-ac64-0d821191388d)
 
 ![Homepage-2](https://github.com/ashishsen003/crabby-whistle-3208/assets/112822104/a1359195-0327-4192-9507-b4af30349f58)
@@ -37,5 +34,5 @@ To run the project locally, follow these steps:
 
 2. Navigate to the project directory:
    ```bash
-   cd crabby-whistle-3208
+   cd create-creation
    ```
