@@ -3,7 +3,6 @@ let password = document.getElementById("password")
 let login = document.getElementById("login")
 let wrong_email = document.getElementById("wrong-email")
 let wrong_pass = document.getElementById("wrong-pass")
-
 let userdata = JSON.parse(localStorage.getItem("userdetails")) || []
 
 login.addEventListener("click",(e)=>{
@@ -35,7 +34,8 @@ login.addEventListener("click",(e)=>{
     setTimeout(()=>{
         wrong_email.style.display = "none"
         wrong_pass.style.display = "none"
-    },6000)
+    },5000)
 }
 })
+
 
