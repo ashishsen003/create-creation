@@ -5,7 +5,7 @@ It is a digital agency website which provides software designing servies for Mob
 ### Netlify Link: https://vocal-elf-cd0ad4.netlify.app/#
 
 ### This project was created by:
-Ashish Kumar (https://github.com/ashishsen003)
+Ashish Kumar https://github.com/ashishsen003
 
 ## ScreenShots:
 ### Home Page:
